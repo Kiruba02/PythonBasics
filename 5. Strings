@@ -1,0 +1,40 @@
+### String Definition :
+A string is a sequence of characters (text) enclosed within quotes.
+Example :
+name = "Python"
+message = 'Hello World'
+
+## String Slicing :
+String slicing is used to extract a portion of a string using index positions.
+Syntax :
+string[start : end]
+Definition Of Syntax : 
+Start → Starting index (Included)
+End → Ending index (Excluded)
+Example : 
+message = "Hello World"
+print(message[0:5])
+Output :
+Hello
+Index Reference : 
+H  E  L  L  O     W  O  R  L  D
+0  1  2  3  4  5  6  7  8  9 10
+
+## Arithmetic Operations on Strings
+1. Concatenation (+)
+Used to join multiple strings.
+Example :
+first_name = "Kiruba"
+last_name = "Elangovan"
+print(first_name + " " + last_name)
+Output :
+Kiruba Elangovan
+
+2. Repetition (*) :
+Used to repeat a string multiple times.
+Example :
+print("Hi" * 5)
+Output :
+HiHiHiHiHi
+✅ Note:
+Subtraction (-), Division (/), and Modulo (%) operators are not supported for strings.
