@@ -36,5 +36,6 @@ Example :
 print("Hi" * 5)
 Output :
 HiHiHiHiHi
+
 ✅ Note:
 Subtraction (-), Division (/), and Modulo (%) operators are not supported for strings.
