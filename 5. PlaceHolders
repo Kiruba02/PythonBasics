@@ -1,0 +1,75 @@
+## Placeholders in Strings :
+Placeholders allow inserting variable values dynamically into strings.
+
+1. Old Placeholder Style (% Formatting) :
+Borrowed from C language formatting.
+| Placeholder | Type    |
+| ----------- | ------- |
+| `%s`        | String  |
+| `%d`        | Integer |
+| `%f`        | Float   |
+
+Example 1 : 
+sentence = "%s %s was the president of USA"
+print(sentence % ("Barack", "Obama"))
+Output :
+Barack Obama was the president of USA
+
+Example 2 : 
+sentence = "%s is %d years old"
+print(sentence % ("Kiruba", 23))
+Output :
+Kiruba is 23 years old
+
+2. .format() Method (Python 3+)
+More flexible than % formatting.
+Example 1 — Without Index
+name = "Kiruba"
+age = 23
+print("My name is {} and I am {} years old".format(name, age))
+Output : 
+My name is Kiruba  and I am 23 years old
+
+Example 2 — With Index
+name = "Kiruba"
+age = 23
+print("My name is {0} and I am {1} years old".format(name, age))
+Output :
+My name is Kiruba  and I am 23 years old
+
+Example 3 — With Named Arguments 
+name = "Kiruba"
+age = 23
+print("My name is {name} and I am {age} years old".format(name=name, age=age))
+Output : 
+My name is Kiruba  and I am 23 years old
+
+3. Format Strings (f-Strings)
+Modern placeholder style introduced in Python 3.6+.
+Syntax :
+f"Text {variable}"
+Example 1 : 
+name = "Charlz"
+print(f"Hello, {name}")
+Output :
+Hello, Charlz
+
+Example 2
+x = 10
+y = 20
+print(f"The sum of x + y is {x + y}")
+Output :
+The sum of x + y is 30
+
+## Why f-Strings are Preferred
+=> More readable and clean
+=> Faster than % and .format()
+=> Values evaluated directly at runtime
+=> Supports expressions inside {}
+
+## Real-World Usage
+=> Logging and debugging
+=> Application messages
+=> API responses
+=> Backend services
+=> Reports and email generation
