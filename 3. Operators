@@ -1,0 +1,74 @@
+### Operators
+Operators are symbols used to perform operations on values or variables.
+
+## Types of Operators
+=> Arithmetic Operators
+=> Comparison / Relational Operators
+=> Logical Operators
+=> Assignment Operators
+=> Identity Operators
+=> Membership Operators
+
+1. Arithmetic Operators
+Used to perform mathematical calculations.
+
+a = 5, b = 2
+| Operator | Description        | Example  | Output |
+| -------- | ------------------ | -------- | ------ |
+| `+`      | Addition           | `a + b`  | `7`    |
+| `-`      | Subtraction        | `a - b`  | `3`    |
+| `*`      | Multiplication     | `a * b`  | `10`   |
+| `/`      | Division           | `a / b`  | `2.5`  |
+| `%`      | Modulo (Remainder) | `a % b`  | `1`    |
+| `**`     | Exponentiation     | `a ** b` | `25`   |
+| `//`     | Floor Division     | `a // b` | `2`    |
+
+2. Comparison / Relational Operators
+Used to compare two values.
+The result will always be True or False.
+
+| Operator | Description              | Example  | Result |
+| -------- | ------------------------ | -------- | ------ |
+| `==`     | Equal to                 | `a == b` | `True` |
+| `!=`     | Not equal to             | `a != b` | `True` |
+| `>`      | Greater than             | `a > b`  | `True` |
+| `<`      | Less than                | `a < b`  | `True` |
+| `>=`     | Greater than or equal to | `a >= b` | `True` |
+| `<=`     | Less than or equal to    | `a <= b` | `True` |
+
+3. Logical Operators
+Used to combine conditional statements.
+
+| Operator | Description                                      | Example                 |
+| -------- | ------------------------------------------------ | ----------------------- |
+| `and`    | Returns `True` if both conditions are true       | `age > 18 and age < 30` |
+| `or`     | Returns `True` if at least one condition is true | `age > 18 or age < 5`   |
+| `not`    | Reverses the result                              | `not age > 18`          |
+
+4.Assignment Operators
+Used to assign and update variable values.
+
+| Operator | Equivalent To   | Example  | Result |
+| -------- | --------------- | -------- | ------ |
+| `=`      | Assign value    | `x = 3`  | `3`    |
+| `+=`     | `x = x + value` | `x += 3` | `8`    |
+| `-=`     | `x = x - value` | `x -= 3` | `2`    |
+| `*=`     | `x = x * value` | `x *= 3` | `15`   |
+| `/=`     | `x = x / value` | `x /= 3` | `1.0`  |
+
+5. Identity Operators
+Used to check whether two variables refer to the same object in memory.
+
+| Operator | Description                                 | Example      | Output |
+| -------- | ------------------------------------------- | ------------ | ------ |
+| `is`     | Returns `True` if both refer to same object | `a is b`     | `True` |
+| `is not` | Returns `True` if different objects         | `a is not b` | `True` |
+
+6.Membership Operators
+Used to check if a value exists in a sequence (list, tuple, string, etc.).
+
+| Operator | Description                            | Example               | Output |
+| -------- | -------------------------------------- | --------------------- | ------ |
+| `in`     | Returns `True` if value exists         | `"P" in "Python"`     | `True` |
+| `not in` | Returns `True` if value does not exist | `"K" not in "Python"` | `True` |
+
